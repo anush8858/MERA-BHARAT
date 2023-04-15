@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="stp.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        </head>
+        <body>
+          <nav>
+            <div class="logo">
+                <h1 class="animate__heartBeat">MERA BHARAT</h1>
+            </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="http://127.0.0.1:5500/gallary.html">Gallery</a>
+                    <a href="http://127.0.0.1:5500/about.html" >About</a>
+                    <a href="http://127.0.0.1:5500/images/contact.html">Contact</a>
+                    
+
+                </div>
+            </nav>
+            <video width="100%" controls>
+                <source src="indian_culture_1920_786.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="images/india gate.jpg"></div>
+                      <div class="swiper-slide"><img src="/images/darjeeling.jpg"></div>            
+                      <div class="swiper-slide"><img src="images/1266890.webp"></div>
+                      <div class="swiper-slide"><img src="images/d2.jpg"></div>
+                      <div class="swiper-slide"><img src="images/jaipur.jpg"></div>
+                      
+                      <div class="swiper-slide"><img src="images/hawa mahal.jpg"></div>
+                      <div class="swiper-slide"><img src="images/m2.jpg"></div>
+                      <div class="swiper-slide"><img src="images/taj.webp"></div>
+                      <div class="swiper-slide"><img src="images/gateway of india.jpg"></div>
+                      
+                    
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                  </div>
+                  
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+            </script>
+        </body>
+    
+</html>

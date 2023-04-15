@@ -1,0 +1,16 @@
+*{
+    border: 40px;
+    padding: 40px;;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    text-align: center;
+    background-color:skyblue;
+    justify-items: center;
+    font-size: 1.5em;
+
+}
+p{
+    margin: 3rem ;
+}
